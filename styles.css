@@ -1,0 +1,40 @@
+
+body { /* Dark-mode background  */
+    background: rgb(60, 50, 60);
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+p {
+color: #4aff00;
+}
+
+h1{
+    color: rgb(20, 224, 156);
+
+}
+
+h2{
+    color: orange;
+
+}
+
+
+h3 {
+    color: #33FF00;  /* Meant to be Terminal Green */
+    border: 2px solid #66ff99;
+}
+
+h6 {
+    color: #ff0000;
+    
+}
+
+
+a{
+    color: #ffb700;  /* Meant to look like Amber Phos */
+
+}
+
+li{
+    color: #33FF00;
+}
