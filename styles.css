@@ -4,6 +4,29 @@ body { /* Dark-mode background  */
     font-family: 'Courier New', Courier, monospace;
 }
     
+header {
+    background: purple;
+}
+
+section {
+    background: skyblue;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer {
+    background: pink;
+}
+
+div {
+    background-color: gold;
+    margin: auto;
+    width: 20px;
+
+}
+
+
 p {
 color: #4aff00;
 }
@@ -21,7 +44,7 @@ h2{
 
 h3 {
     color: #33FF00;  /* Meant to be Terminal Green */
-    border: 2px solid #66ff99;
+    
 }
 
 h6 {
@@ -37,4 +60,8 @@ a{
 
 li{
     color: #33FF00;
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
 }
