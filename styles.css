@@ -4,15 +4,18 @@ body { /* Dark-mode background  */
     font-family: 'Courier New', Courier, monospace;
 }
     
-header {
-    background: purple;
+nav {
+    background-color: purple;
+}
+
+nav li:hover {
+    background-color: greenyellow;
 }
 
 section {
     background: skyblue;
     display: flex;
     flex-direction: row;
-
 }
 
 footer {
@@ -33,6 +36,7 @@ color: #4aff00;
 
 h1{
     color: rgb(20, 224, 156);
+    
 
 }
 
@@ -52,11 +56,18 @@ h6 {
     
 }
 
-
 a{
+    text-decoration: none; 
     color: #ffb700;  /* Meant to look like Amber Phos */
-
 }
+    
+
+a:hover{
+    text-decoration: underline; 
+}
+
+
+
 
 li{
     color: #33FF00;
@@ -65,3 +76,5 @@ li{
     list-style-type: none;
     display: inline-block;
 }
+
+
