@@ -1,25 +1,66 @@
 
-body { /* Dark-mode background  */
+/*
+==== Style legend ====
+-- Section forces content to be grouped to a theme
+-- Div is a style-only container
+-- :root spreads the style to all HTML pages
+
+==== Color Palette ====
++ Dark mode preferences
+    -- Dark mode background color rgb(32, 30, 32)
+    -- Preferred Body text color  #4aff00 Terminal Green
+    -- Hyperlink color #ffb700 Amber Phosphorus
+
+*/
+
+
+
+
+
+:root {
     background: rgb(32, 30, 32);
     font-family: 'Courier New', Courier, monospace;
-}
-    
-nav {
-    background-color: purple;
+    color: #4aff00;
 }
 
-nav li:hover {
-    background-color: greenyellow;
+menu{
+    list-style-type: none;
 }
+
+div.article-title{
+    color: rgb(20, 224, 156);
+}
+
+
+
+ 
+a, summary{
+    text-decoration: none; 
+    color: #ffb700; /* Meant to look like Amber Phos */
+}
+
+
+
+
+
+
+
+
+
+/*
+    
+
+
+
 
 section {
-    background: skyblue;
+    color: skyblue;
     display: flex;
     flex-direction: row;
 }
 
 footer {
-    background: pink;
+    color: pink;
 }
 
 div {
@@ -47,27 +88,24 @@ h2{
 
 
 h3 {
-    color: #33FF00;  /* Meant to be Terminal Green */
+    color: #33FF00;  /* Meant to be Terminal Green 
     
-}
+} */
+
+/*
 
 h6 {
     color: #ff0000;
     
 }
 
-a{
-    text-decoration: none; 
-    color: #ffb700;  /* Meant to look like Amber Phos */
-}
-    
+
+   
+/*
 
 a:hover{
     text-decoration: underline; 
 }
-
-
-
 
 li{
     color: #33FF00;
@@ -76,5 +114,6 @@ li{
     list-style-type: none;
     display: inline-block;
 }
+*/ 
 
 
