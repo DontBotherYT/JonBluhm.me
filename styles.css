@@ -23,13 +23,27 @@
     color: #4aff00;
 }
 
-menu{
+.list-menu{
     list-style-type: none;
 }
 
-div.article-title{
+.article-title{
     color: rgb(20, 224, 156);
 }
+
+
+.expand-summary{
+    border-style: dashed;
+    border-color: #4aff00;
+    border-width: 2px;
+    flex-direction: row;
+    width: 250px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+
+
+}
+
 
 
 
@@ -37,7 +51,11 @@ div.article-title{
 a, summary{
     text-decoration: none; 
     color: #ffb700; /* Meant to look like Amber Phos */
+    margin-top: 15px;
+
+
 }
+
 
 
 
